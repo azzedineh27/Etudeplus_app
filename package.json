@@ -1,0 +1,30 @@
+{
+  "name": "etudeplus_app",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "node_modules/expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "expo": "~52.0.46",
+    "expo-status-bar": "~2.0.1",
+    "i18next": "^25.0.0",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "i18next-http-backend": "^3.0.2",
+    "react": "18.3.1",
+    "react-i18next": "^15.4.1",
+    "react-native": "0.76.9",
+    "expo-router": "~4.0.20"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "typescript": "^5.3.3",
+    "@types/react": "~18.3.12"
+  },
+  "private": true
+}
